@@ -24,3 +24,4 @@ class Movie {
 }
 
 $movie1 = new Movie('Ritorno al futuro', 'Robert Zemeckis', 'en', 116);
+$movie2 = new Movie('Ritorno al futuro II', 'Robert Zemeckis', 'en', 108);
