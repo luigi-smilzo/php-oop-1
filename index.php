@@ -13,23 +13,16 @@ include_once __DIR__ . '/classes/movie.php';
     <div>
         <h3>#1</h3>
         <?php 
-        echo "Titolo: " . "$movie1->title <br>";
-        echo "Regista: " . "$movie1->director <br>";
-        echo "Lingua originale: " . "$movie1->language <br>";
-        echo "Durata: " . "$movie1->duration <br>";
-        echo "Posto assegnato: " . "{$movie1->seatAssign(30)} <br>";
+        $movie1->print();
         ?>
     </div>
 
     <div>
         <h3>#2</h3>
         <?php 
-        echo "Titolo: " . "$movie2->title <br>";
-        echo "Regista: " . "$movie2->director <br>";
-        echo "Lingua originale: " . "$movie2->language <br>";
-        echo "Durata: " . "$movie2->duration <br>";
-        echo "Posto assegnato: " . "{$movie2->seatAssign(30)} <br>";
+        $movie2->print();
         ?>
     </div>
+    
 </body>
 </html>
